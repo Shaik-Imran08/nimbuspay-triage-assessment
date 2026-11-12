@@ -1,0 +1,18 @@
+# Ignore large model checkpoints
+checkpoints/
+*.bin
+*.pt
+*.pth
+
+# Python cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+.env/
+
+# Raw base datasets per assignment instructions:
+# "Do not push the training data or the base model."
+data/train.jsonl
